@@ -3,8 +3,8 @@ name: Generate and Update M3U Playlist
 on:
   workflow_dispatch:
   schedule:
-  - cron: '*/5 * * * *'
- çalışacak
+    - cron: '*/5 * * * *'  # Her 5 dakikada bir çalışır
+
 
 env:
   MAIN_URL: "https://m.prectv52.lol"
